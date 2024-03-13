@@ -5,3 +5,18 @@ Chiediamo all'utente quanti elementi dell'array dovremo stampare
 Suggerimenti:
 Probabilmente conviene controllare che il numero di elementi della coda non sia più grande del numero di elementi totali dell'array */
 
+let userNumbers =[parseInt(prompt("Quanti numeri vuoi inserire?"))] ;
+console.log (userNumbers);
+let outputNumbers = Math.floor(Math.random() * (1 - 100 + 1) ) + 1;
+console.log(outputNumbers);
+
+/* let elements = (userNumbers = outputNumbers); */
+
+/* for(i = 100; i >= outputNumbers.lenght; i--); */
+
+
+
+
+
+
+

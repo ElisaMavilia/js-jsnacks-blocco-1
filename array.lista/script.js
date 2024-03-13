@@ -28,14 +28,14 @@ let message = document.getElementById("fridge");
 // Ricerca elemento "cocomero"
 
 // creo flag founded
-let founded = false;
+let found = false;
 
 //ciclo for per la ricerca
 for (let i = 0; i < fruits.length; i++){
     if (fruits[i] === "cocomero"){  //condizione con flag che diventa true
-        founded = true; 
+        found = true; 
     } 
-    if (founded){ // condizione per la stampa di true/false
+    if (found){ // condizione per la stampa di true/false
         message.innerHTML = "Trovato! Devo solo preparare il cocktail!"
     } else {
         message.innerHTML = "Oh no, devo uscire a comprare il cocomero!"
